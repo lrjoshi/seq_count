@@ -2,6 +2,8 @@
 #script to compare similarity of sequence 
 # a should be reference sequence
 #All the sequence should have same length 
+#These are sample variables. These variable can be replaced with amin acid sequences
+#Eg a="MLVKL-LK"
 
 a="abcde"
 b="abcde"
@@ -72,6 +74,7 @@ data1$aa_position= c(1:length(data1$seq))
 View(data1)
 #now plot for extracted data 
 library(ggplot2)
+#to make plot better you can use following libraries. But I am ommiting it now.
 #library(gghighlight)
 #library(ggalt)
 
